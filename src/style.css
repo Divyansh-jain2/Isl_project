@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.app {
+  padding: 2rem;
+  text-align: center;
+}
+
+h1, h2 {
+  color: #e0e0e0;
+}
+
+.news-feed {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-feed ul {
+  list-style: none;
+  padding: 0;
+}
+
+.news-item {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #444;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.news-item .sentiment {
+  font-weight: bold;
+}
+
+.news-item.good {
+  border-color: #00C49F;
+  color: #00C49F;
+}
+
+.news-item.neutral {
+  border-color: #FFBB28;
+  color: #FFBB28;
+}
+
+.news-item.bad {
+  border-color: #FF4C4C;
+  color: #FF4C4C;
+}
+
+.overall-sentiment {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+.overall-sentiment.bullish {
+  color: #00e676;
+}
+
+.overall-sentiment.bearish {
+  color: #ff1744;
+}
+
+.overall-sentiment.neutral {
+  color: #ffa000;
+}
